@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[macox 安装使用 adb tool]]></title>
+      <url>/2018/01/23/macox-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8-adb-tool/</url>
+      <content type="html"><![CDATA[<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>下载链接：<a href="https://d11.baidupcs.com/file/fb12d8143501a750b4557c39c66d4669?bkt=p3-1400fb12d8143501a750b4557c39c66d466967c022c80000001a98b1&amp;xcode=267c51f072b16c68ae615352846489a8f6b1bb2cb6e22cea0b2977702d3e6764&amp;fid=2383159761-250528-490829943999501&amp;time=1500954660&amp;sign=FDTAXGERLBHS-DCb740ccc5511e5e8fedcff06b0812" target="_blank" rel="noopener">adb下载</a></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p><strong>adb 工具不需要安装，配置环境变量即可</strong></p>
+<ol>
+<li>将环境变量写入 shell 配置文件<pre><code class="zsh">$ echo &#39;export PATH=$PATH:/path/to/platform-tools&#39; &gt;&gt; ~/.zshrc
+</code></pre>
+</li>
+<li>使配置文件生效<pre><code class="zsh">$ source ~/.zshrc
+</code></pre>
+</li>
+</ol>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><pre><code class="zsh">$ adb devices
+</code></pre>
+<h2 id="关于-List-of-devices-attached"><a href="#关于-List-of-devices-attached" class="headerlink" title="关于 List of devices attached"></a>关于 List of devices attached</h2><ul>
+<li>使用照片传输或者大容量设置方式链接</li>
+<li>复制 Vendor ID 写入 adb_usb.ini</li>
+</ul>
+<pre><code class="zsh">$ adb kill-server
+$ adb devices
+</code></pre>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> android </tag>
+            
+            <tag> adb </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+</search>
